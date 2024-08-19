@@ -2,6 +2,8 @@
 # Do NOT edit unless you know exactly what you are doing
 
 CONFIG_IDF_TARGET_ESP32=y
+
+# added WS support
 CONFIG_AT_WS_COMMAND_SUPPORT=y
 
 # Serial flasher config
