@@ -2,6 +2,7 @@
 # Do NOT edit unless you know exactly what you are doing
 
 CONFIG_IDF_TARGET_ESP32=y
+CONFIG_AT_WS_COMMAND_SUPPORT=y
 
 # Serial flasher config
 CONFIG_ESPTOOLPY_FLASHMODE_DIO=y
